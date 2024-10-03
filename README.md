@@ -1,3 +1,7 @@
+![localhost_5173_dashboard(Pixel 7)](https://github.com/user-attachments/assets/f03aa41f-97ee-43d2-b661-0077906ed2c4)
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
