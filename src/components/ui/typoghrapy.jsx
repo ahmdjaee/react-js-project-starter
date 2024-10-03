@@ -3,9 +3,9 @@ import React from "react";
 
 const PageTitle = React.forwardRef(({ className, ...props }, ref) => {
   return (
-    <h1
+    <h5
       ref={ref}
-      className={cn("text-xl font-semibold tracking-tight", className)}
+      className={cn("text-lg font-semibold tracking-tight", className)}
       {...props}
     />
   );

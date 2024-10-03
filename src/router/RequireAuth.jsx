@@ -1,10 +1,11 @@
+import { getCurrentUserAndToken } from "@/service/auth";
 import { Navigate, Outlet, useLocation } from "react-router-dom";
 
 function RequireAuth() {
-  const isAuthenticaed = false;
+  const user = getCurrentUserAndToken();
   let location = useLocation();
 
-  if (!isAuthenticaed) {
+  if (!user) {
     return <Navigate to="/auth/login" state={{ from: location }} replace />;
   }
 

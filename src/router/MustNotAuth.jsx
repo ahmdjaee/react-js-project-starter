@@ -1,10 +1,11 @@
+import { getCurrentUserAndToken } from "@/service/auth";
 import { Navigate, Outlet, useLocation } from "react-router-dom";
 
 function MustNotAuth() {
-  const isAuthenticaed = false;
+  const user = getCurrentUserAndToken();
   let location = useLocation();
 
-  if (isAuthenticaed) {
+  if (user) {
     return <Navigate to="/" state={{ from: location }} replace />;
   }
 

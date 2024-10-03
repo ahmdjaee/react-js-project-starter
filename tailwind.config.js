@@ -51,6 +51,9 @@ export default {
           5: "hsl(var(--chart-5))",
         },
       },
+      height: {
+        "screen-dvh": "100dvh",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
