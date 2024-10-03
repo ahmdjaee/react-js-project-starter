@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/user-attachments/assets/f03aa41f-97ee-43d2-b661-0077906ed2c4" alt="drawing" width="500" height="auto"/>
+<img src="https://github.com/user-attachments/assets/f03aa41f-97ee-43d2-b661-0077906ed2c4" alt="" height="500px"/>
 
 # React + Vite
 
